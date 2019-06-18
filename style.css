@@ -63,8 +63,13 @@ main{
 }
 
 @media screen and (max-width:768px) {
+  main{
+    width: 100%
+  }
   .step-box{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
     float: none;
   }
   .step-img1{
